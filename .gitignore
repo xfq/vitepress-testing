@@ -1,0 +1,24 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Swap the comments on the following lines if you don't wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+!.yarn/cache
+#.pnp.*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# VitePress
+docs/.vitepress/dist
